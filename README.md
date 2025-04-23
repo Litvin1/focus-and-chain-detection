@@ -26,7 +26,7 @@ Takes focus masks from previous step and `.nd2` file with phase channel and perf
   - **Tiebreaker**: If there are two candidates with similar angles, the algorithm will assign to chain the mask with the larger contact interface.
   - **Manual correction**: Napari viewer will open for each chain, and the user will be able to manually correct the chain         assignments.
 ## Installation
-The python dependencies are managed via conda and can be installed using the provided environment.yaml file:
+The python dependencies are managed via conda and can be installed using the provided focus_and_chain_env.yaml file:
 ```
 conda env create -f focus_and_chain_env.yaml
 conda activate focus_and_chain_detection
