@@ -33,5 +33,5 @@ conda activate focus_and_chain_detection
 ```
 ## Example
 Two notebooks are provided: `focus_diff_run_notebook.ipynb`, `chain_det_run_notebook.ipynb`. One for finding the focus masks and the second for associating the masks to filaments.
-
+## Images
 ![Figures of workflow](Res_F6_segmentation.svg)
